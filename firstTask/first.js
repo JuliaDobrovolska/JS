@@ -44,15 +44,6 @@ var result = (a + b >= 3) ?  'Yep!' : 'Noup!';
 var text = (name == 'admin') ? 'Hi' : (name == 'manager') ? 'Hello' : (name === '')? 'No login' : '';
 
 
-
-
-
-
-
-
-
-
-
          //6 task
 function numberToString(num) {
     var res=String(num);
