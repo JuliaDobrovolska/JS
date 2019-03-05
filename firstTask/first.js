@@ -5,8 +5,7 @@ if(year === 2015) { alert('Вы правы!') } else { alert('Ты что с л�
 
         //2 task
 var number = prompt('Введите любое число');
-if (number > 0) 
-{ 
+if (number > 0) { 
   alert(1)
 } 
 else if(number == 0){
@@ -23,7 +22,7 @@ if(login === 'admin'){
         alert('Welcome home!')
     } else if(login === null) {
         alert('Canceled');
-      } else {
+    } else {
       alert('Wrong password');
       }
 } else if(login === null) {
@@ -44,15 +43,6 @@ var result = (a + b >= 3) ?  'Yep!' : 'Noup!';
 var text = (name == 'admin') ? 'Hi' : (name == 'manager') ? 'Hello' : (name === '')? 'No login' : '';
 
 
-
-
-
-
-
-
-
-
-
          //6 task
 function numberToString(num) {
     var res=String(num);
@@ -63,7 +53,7 @@ numberToString(123);
 
          //7 task
 function stringToNumber(str) {
-    var resFunc=+str;
+    var resFunc=parseInt(str);
     console.log(resFunc);
     
 }
