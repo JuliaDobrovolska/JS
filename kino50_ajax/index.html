@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-row">
+      <div>
+        <a href="#"><i class="fas fa-bars"></i></a>
+        <a href="#" class="header-logo">Kino50.ru</a>
+      </div>
+      <div class="header-icons">
+        <a href="#"><i class="far fa-bookmark"></i></a>
+        <a href="#"><i class="fas fa-search"></i></a>
+      </div>
+    </div>
+    <nav class="header-navigation">
+      <ul class="list-inline">
+        <li class="active-link"><a href="#" >Фильмы</a></li>
+        <li><a href="#">Сериалы</a></li>
+        <li><a href="#">Мультсериалы</a></li>
+        <li><a href="#">Мультфильмы</a></li>
+        <li><a href="#">Аниме</a></li>
+        <li><a href="#">Телешоу</a></li>
+        <li><a href="#">Подборки</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <aside class="main-aside">
+      <ul class="main-aside-list">
+        <li ><a href="#" >(-) только DVD качество</a></li>
+        <li class="list-space"><a href="#" >боевики</a></li>
+        <li><a href="#">вестерны</a></li>
+        <li><a href="#">военные фильмы</a></li>
+        <li><a href="#">дедективы</a></li>
+        <li><a href="#">драмы</a></li>
+        <li><a href="#">исторические фильмы</a></li>
+        <li><a href="#">комедии</a></li>
+        <li><a href="#">криминал</a></li>
+        <li><a href="#">мелодрамы</a></li>
+        <li><a href="#">мультфильмы</a></li>
+        <li><a href="#">приключения</a></li>
+        <li><a href="#">семейные фильмы</a></li>
+        <li><a href="#">спортивные фильмы</a></li>
+        <li><a href="#">триллеры</a></li>
+        <li><a href="#">ужасы</a></li>
+        <li><a href="#">фантастика</a></li>
+        <li><a href="#">фэнтези</a></li>
+        <li class="list-space"><a href="#" >2010-х</a></li>
+        <li><a href="#">2000-x</a></li>
+        <li><a href="#">90-х</a></li>
+        <li><a href="#">80-х</a></li>
+        <li><a href="#">70-х</a></li>
+        <li><a href="#">1960-х и раньше</a></li>
+        <li class="list-space"><a href="#" >2018</a></li>
+        <li><a href="#">2017</a></li>
+        <li><a href="#">2016</a></li>
+        <li><a href="#">2015</a></li>
+      </ul>
+    </aside>
+    <article class="main-article">
+      <div class="title-container">
+        <h1 class="title">Популярные фильмы онлайн в хорошем качестве. Смотреть бесплатно</h1>
+        <ul class="list-inline sort-list">
+          <li class="sort">Сортировать:</li>
+          <li class="sort-active"><a href="#">По популярности</a></li>
+          <li><a href="#">Новые сначала</a></li>
+          <li><a href="#">По сборах</a></li>
+          <li><a href="#">По бюджету</a></li>
+          <li><a href="#">Лучшие</a></li>
+        </ul>
+      </div>
+                                                         <!--  -->
+      
+      
+      
+      
+      <ul id="film-list" class="film-list"></ul>
+      <template id="film-template">
+      <li class="film-figure">
+        <a href="#" class="film-figure-title"></a>
+      </li>
+    </template>
+
+      
+
+                                                          <!--  -->
+      <nav class="main-article-bottom-navigation">
+        <ul class="main-article-list-inline">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li>...</li>
+          <li><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+      </nav>
+      <p>К вашим услугам каталог самых популярных фильмов. Для просмотра вы выбираете понравившийся фильм, нажимаете не
+        него и получаете краткое описание, а также перечень ссылок, где его можно посмотреть онлайн. Кинофильмы в
+        каталоге располагаются по дате премьеры. Здесь вы можете смотреть фильмы 2019 года. Вы можете также
+        воспользоваться фильтром, сортирующим фильмы по жанрам и выбрать кино в рамках любимого вами жанра. Фильтр
+        находится в колонке слева. Мы также позаботились, о том чтобы вам не пришлось долго выбирать достойный
+        просмотра фильм — мы отобрали самое лучшее для вас. На нашем сайте вы получите отличное качество просмотра
+        огромного количества видео</p>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="info">
+    <a href="#">Контакты</a>
+  </div>
+    <div class="lang">
+      <a href="#">Русский</a>
+      <a href="#">Українська</a>
+    </div>
+  
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
